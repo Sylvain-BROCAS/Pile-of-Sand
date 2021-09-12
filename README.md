@@ -31,5 +31,5 @@ Here is how my program works :
 ### Here are some documentation parts and examples that helped me throught this mini project :
 - The video : https://www.youtube.com/watch?v=MrsjMiL9W9o
 - A post on stackoverflow that helped me to understand how to animate a plot with matplotlib.animation : https://stackoverflow.com/questions/62411273/how-to-use-matplotlib-funcanimation-to-animate-a-heatmap
-- A really useful example with matplotlib.animation : https://matplotlib.org/stable/api/_as_gen/matplotlib.animation.ArtistAnimation.html?highlight=artistanimation#matplotlib.animation.ArtistAnimation
+- A really useful example with matplotlib.animation : https://matplotlib.org/2.1.2/gallery/animation/basic_example.html
 - The documentation of matplotlib.animation : https://matplotlib.org/stable/api/animation_api.html
