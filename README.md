@@ -3,12 +3,12 @@
 ## The project
 I've watched [Science étonnante](https://www.youtube.com/c/ScienceEtonnante)'s last video yesterday. 
 This [great video](https://www.youtube.com/watch?v=MrsjMiL9W9o) is about the modelisation of daily fluctations in the stock market. In the video he uses a python modelisation to explain the "Self-organised Criticality" principle. I found interresting to code it by myself with python.
-So here is a small modelisation of a pile of sand on which some grains of sand would be dropped regularly. When you launch the simulation, you can see some avalanches sometimes, result of the dropped grains and of the "Self-organised criticity" phenomene
+So here is a small modelisation of a pile of sand on which some grains of sand would be dropped regularly. When you launch the simulation, you can see some avalanches sometimes, result of the dropped grains and of the "Self-organised Criticality" phenomene
 
 ##
-The "self-organised criticity" principle (applicated to a sand pile) is the way the grains make avalanches when they're to unstable but when the avalanche stops but always stay near an unstable balance. The goal with my program is to simulate the evolution of the organisation of the grains when some new grains are dropped on the pile. I wanted to see these avalanches created by my own program and not just in somebody's video.
+The "Self-organised Criticality" principle (applied to a sand pile) is the way the grains make avalanches when they're too unstable but that always stay near an unstable balance when the avalanche stops. The goal with my program is to simulate the evolution of the organisation of the grains when some new grains are dropped on the pile. I wanted to see these avalanches created by my own program and not just in somebody's video.
 
-This simulation is organised by 2 simple rules, that remembers Conway's Game of Life ones :
+This simulation is lead by 2 simple rules, that remembers those of Conway's life game  :
 - **1** : A new grain of sand is dropped on the pile at each round
 - **2** : If there're more than 4 grains on the same cell, they're pushed to the 4 cells around (top, bottom, right, left) *(Note : I used a variable in my program to be able to change this "critical threshold")
 
@@ -19,7 +19,7 @@ Here is how my program works :
 - A *for* loop is used to create all the steps of the animation
 - The function matplotlib.animation.ArtistAnimation is used to animate the steps
 
-## Some ways of thinking to upgrade the simulation : 
+## Some ways of improvement : 
 - I could add a color scale;
 - When I run the script, a second empty matplotlib window opens. I don't know why but I think it's possible to solve it; 
 
