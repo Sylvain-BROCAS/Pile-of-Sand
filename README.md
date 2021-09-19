@@ -13,7 +13,10 @@ This simulation is lead by 2 simple rules, that remembers those of Conway's life
 - **2** : If there're more than 4 grains on the same cell, they're pushed to the 4 cells around (top, bottom, right, left) *(Note : I used a variable in my program to be able to change this "critical threshold")
 
 Here is a run of my simulation :
+
 ![](https://github.com/Studioaxs/Pile-of-Sand/blob/main/sand-pile.gif)
+
+
 
 This is how my program works : 
 - A ndArray is created with the wanted shape. It's filled with zeros
