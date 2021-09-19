@@ -14,7 +14,7 @@ This simulation is lead by 2 simple rules, that remembers those of Conway's life
 
 Here is a run of my simulation :
 
-![](https://github.com/Studioaxs/Pile-of-Sand/blob/main/sand-pile.gif)
+![](https://github.com/Studioaxs/Pile-of-Sand/blob/main/sand-pile-reshaped.gif)
 
 
 
