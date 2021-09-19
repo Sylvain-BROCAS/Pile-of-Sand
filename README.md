@@ -4,7 +4,7 @@
 I've watched [Science étonnante](https://www.youtube.com/c/ScienceEtonnante)'s last video yesterday. 
 This [great video](https://www.youtube.com/watch?v=MrsjMiL9W9o) is about the modelisation of daily fluctations in the stock market. In the video he uses a python modelisation to explain the "Self-organised Criticality" principle. I found interresting to code it by myself with python.
 So here is a small modelisation of a pile of sand on which some grains of sand would be dropped regularly. When you launch the simulation, you can see some avalanches sometimes, result of the dropped grains and of the "Self-organised Criticality" phenomene
-[](https://github.com/Studioaxs/Pile-of-Sand/blob/main/Figure-1-2021-09-12-15-43-09.gif)
+![](https://github.com/Studioaxs/Pile-of-Sand/blob/main/Figure-1-2021-09-12-15-43-09.gif)
 ##
 The "Self-organised Criticality" principle (applied to a sand pile) is the way the grains make avalanches when they're too unstable but that always stay near an unstable balance when the avalanche stops. The goal with my program is to simulate the evolution of the organisation of the grains when some new grains are dropped on the pile. I wanted to see these avalanches created by my own program and not just in somebody's video.
 
