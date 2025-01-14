@@ -15,7 +15,7 @@ sand_map = np.zeros(size) # Map initialisation
 
 def avalanche(map):
     print("-"*75, "\n>>> ", i)
-    
+
     # Randomly add a new grain on the grid
     m,n = randint(0,size[0]-1), randint(0,size[1]-1)
     #print("A grain of sand was droped here : (", m, ", ", n, ")")
